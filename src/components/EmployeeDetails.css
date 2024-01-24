@@ -1,0 +1,68 @@
+
+.container_view {
+ 
+  max-width: 800px;
+  min-height: 50vh;
+  max-height: 100%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+  
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  padding: 8px 12px;
+  margin-right: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button button {
+  background-color: #008CBA;
+}
+
+.button button:hover {
+  background-color: #0077a3;
+}
+
